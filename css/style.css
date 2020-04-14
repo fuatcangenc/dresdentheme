@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Heebo", sans-serif;
+}
+
+* ul {
+  list-style: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.head {
+  margin-top: 2rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.head .left-icons a .fa-facebook-f,
+.head .left-icons a .fa-instagram,
+.head .left-icons a .fa-twitter {
+  margin-right: 1rem;
+  color: #323232;
+}
+
+.head .logo h2 a,
+.head .fa-search {
+  color: #23374d;
+}
+
+.head .sag .subscribe,
+.head .sag .search {
+  margin-left: 1rem;
+  float: left;
+}
+
+.head .sag .search {
+  padding: 0.3rem;
+}
+
+.head .sag .subscribe button {
+  background-color: #23374d;
+  border: none;
+  width: 7rem;
+  padding: 0.3rem;
+  border-radius: 15px;
+}
+
+.head .sag .subscribe button a {
+  color: #fff;
+}
+
+.content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 70% 25%;
+      grid-template-columns: 70% 25%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.content .blog .blog-body p {
+  color: #1a1a1a;
+}
+
+.content .blog .blog-title h3 {
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.content .blog .blog-title-date {
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+
+.content .blog .blog-img img {
+  width: 100%;
+  height: auto;
+}
+
+.content .blog .blog-bottom {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content .blog .blog-bottom .readmore button {
+  background-color: #23374d;
+  border: none;
+  width: 7rem;
+  padding: 0.3rem;
+  cursor: pointer;
+  color: white;
+}
+
+.content .blog .blog-bottom .sharebuttons .fa-facebook-f,
+.content .blog .blog-bottom .fa-instagram,
+.content .blog .blog-bottom .fa-twitter {
+  color: #323232;
+  margin-left: 1rem;
+}
+
+.content .sidebar .recent-posts,
+.content .sidebar .popular-post-head,
+.content .sidebar .instagram-head {
+  border: 1px solid #e9e3e3;
+  padding: 1rem;
+}
+
+.content .sidebar .recent-posts p,
+.content .sidebar .popular-post-head,
+.content .sidebar .instagram-head {
+  text-align: center;
+  font-weight: bold;
+}
+
+.content .sidebar .sidebar-img,
+.content .sidebar .populer-post-img,
+.content .sidebar .instagram-img {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1rem 0;
+}
+
+.content .sidebar .sidebar-date {
+  color: #999999;
+}
+
+.content .sidebar .recent-title h4,
+.content .sidebar .sidebar-date,
+.content .sidebar .popular-post-title,
+.content .sidebar .popular-post-date {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.content .sidebar .instagram-img {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  position: relative;
+}
+
+.content .sidebar .instagram-img .right {
+  position: absolute;
+  right: 0;
+}
+
+.content .sidebar .instagram-img .left {
+  position: absolute;
+  left: 0;
+}
+
+footer {
+  background-color: #e6e6e6;
+  margin-top: 4rem;
+  padding: 3rem;
+}
+
+footer .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+}
+
+footer .container a {
+  color: #808080;
+}
+/*# sourceMappingURL=style.css.map */

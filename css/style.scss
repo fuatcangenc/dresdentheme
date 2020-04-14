@@ -1,0 +1,164 @@
+$buttonColor: #23374d;
+$bgColor: gray;
+$iconColor: #323232;
+$blogDate: #999999;
+$blogTitle: #1a1a1a;
+$footerColor: #e6e6e6;
+$footerLinkColor:#808080;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Heebo", sans-serif;
+  ul {
+    list-style: none;
+  }
+}
+html {
+  font-size: 16px;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.head {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  .left-icons {
+    a {
+      .fa-facebook-f,
+      .fa-instagram,
+      .fa-twitter {
+        margin-right: 1rem;
+        color: $iconColor;
+      }
+    }
+  }
+  .logo h2 a,
+  .fa-search {
+    color: $buttonColor;
+  }
+  .sag {
+    .subscribe,
+    .search {
+      margin-left: 1rem;
+      float: left;
+    }
+    .search {
+      padding: 0.3rem;
+    }
+    .subscribe button {
+      background-color: $buttonColor;
+      border: none;
+      width: 7rem;
+      padding: 0.3rem;
+      border-radius: 15px;
+    }
+    .subscribe button a {
+      color: #fff;
+    }
+  }
+}
+.content {
+  display: grid;
+  grid-template-columns: 70% 25%;
+  justify-content: space-between;
+  margin-top: 2rem;
+  .blog {
+    .blog-body p {
+      color: $blogTitle;
+    }
+    .blog-title h3 {
+      color: $blogTitle;
+      text-align: center;
+    }
+    .blog-title-date {
+      text-align: center;
+      font-weight: 100;
+      margin-bottom: 1rem;
+    }
+    .blog-img img {
+      width: 100%;
+      height: auto;
+    }
+    .blog-bottom {
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content: space-between;
+      .readmore button {
+        background-color: $buttonColor;
+        border: none;
+        width: 7rem;
+        padding: 0.3rem;
+        cursor: pointer;
+        color: white;
+      }
+      .sharebuttons .fa-facebook-f,
+      .fa-instagram,
+      .fa-twitter {
+        color: $iconColor;
+        margin-left: 1rem;
+      }
+    }
+  }
+  .sidebar {
+    .recent-posts,
+    .popular-post-head,
+    .instagram-head {
+      border: 1px solid rgb(233, 227, 227);
+      padding: 1rem;
+    }
+    .recent-posts p,
+    .popular-post-head,
+    .instagram-head {
+      text-align: center;
+      font-weight: bold;
+    }
+    .sidebar-img,
+    .populer-post-img,
+    .instagram-img {
+      display: grid;
+      justify-content: center;
+      margin: 1rem 0;
+    }
+    .sidebar-date {
+      color: $blogDate;
+    }
+    .recent-title h4,
+    .sidebar-date,
+    .popular-post-title,
+    .popular-post-date {
+      text-align: center;
+      margin: 1rem 0;
+    }
+    .instagram-img {
+      display: grid;
+      grid-template-columns: auto auto;
+      position: relative;
+      .right {
+        position: absolute;
+        right: 0;
+      }
+      .left {
+        position: absolute;
+        left: 0;
+      }
+    }
+  }
+}
+footer {
+  background-color: $footerColor;
+  margin-top: 4rem;
+  padding: 3rem;
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    a{
+      color: $footerLinkColor;
+    }
+  }
+}
