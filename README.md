@@ -1,3 +1,3 @@
 # dresdentheme
 PSD to HTML.
-Sass used. I don't own the website design. I just coded.
+Sass used. The design is not mine. I just coded.
